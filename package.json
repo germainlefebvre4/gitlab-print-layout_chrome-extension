@@ -1,0 +1,19 @@
+{
+  "name": "gitlab-print-layout",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "2.2.2"
+  },
+  "devDependencies": {
+    "coffee-script": "1.10.0",
+    "rimraf": "2.5.2",
+    "fs-extra": "0.26.7",
+    "archiver": "0.21.0"
+  },
+  "scripts": {
+    "clean": "coffee build.coffee clean",
+    "compile": "coffee -o build/tmp/src -c src",
+    "build": "coffee build.coffee build && npm run compile",
+    "release": "npm run build && coffee build.coffee release"
+  }
+}

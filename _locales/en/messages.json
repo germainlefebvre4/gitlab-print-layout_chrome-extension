@@ -1,0 +1,14 @@
+{
+  "extensionDescription": {
+    "message": "Adjust layout of GitLab pages for printing.",
+    "description": ""
+  },
+  "guide": {
+    "message": "Page content is coverted for printing.",
+    "description": ""
+  },
+  "revert": {
+    "message": "Revert",
+    "description": ""
+  }
+}
